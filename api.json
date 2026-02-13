@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/tatzelwurm",
     "maintainers": [
       {
@@ -18,484 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "tatzelwurm",
     "name": "Tatzelwurm",
-    "aliases": [
-      {
-        "name": "Stollenwurm",
-        "language": "German",
-        "region": "Austria",
-        "meaning": "tunnel worm"
-      },
-      {
-        "name": "Springwurm",
-        "language": "German",
-        "region": "Alps",
-        "meaning": "jumping worm"
-      },
-      {
-        "name": "Bergstutzen",
-        "language": "German",
-        "region": "Alps"
-      }
-    ],
+    "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Unknown Animal",
+    "subcategory": "| Description | Status |",
     "tags": [
-      "alpine-cryptid",
-      "european",
-      "lizard-like",
-      "mountain-creature",
-      "cryptozoology",
-      "switzerland",
-      "austria",
-      "germany"
+      "folklore",
+      "mythology"
     ],
-    "status": "historical",
+    "status": "documented",
     "description": {
-      "summary": "An Alpine cryptid described as a 2-6 foot long lizard-like creature with a cat-like head and only two front legs. Reported from caves and rocky areas in the Swiss, Austrian, and Bavarian Alps with sightings dating back to 1779.",
-      "full": "The Tatzelwurm is a cryptid creature from the Alpine regions of Switzerland, Austria, and Bavaria (southern Germany). Described as 2-6 feet long, the creature has a lizard-like serpentine body with distinctively only two front legs and no hind legs, giving it an unusual appearance. Its head is often described as cat-like or feline, and it reportedly has the ability to hiss like a cat. According to historical accounts, the Tatzelwurm is aggressive when encountered and was claimed to have poisonous or venomous breath. The creature inhabits caves, rocky areas, and high-altitude Alpine environments. Reports of the Tatzelwurm date back to 1779, with sporadic sightings continuing into the 20th century. The most famous evidence is a sketch made by a Swiss hunter in 1934 and a photograph from the same year, though the photograph is widely considered a hoax. Some claimed skeletons and remains have been reported but none verified by science. Theories about the Tatzelwurm's identity range from it being a giant salamander species, an unknown lizard, misidentified otters or martens, or purely folklore connected to European dragon and lindworm traditions. Modern sighting reports are extremely rare, placing the Tatzelwurm primarily in the category of historical cryptids."
+      "summary": "The Tatzelwurm is a cryptid creature from the Alpine regions of Switzerland, Austria, and Bavaria (southern Germany).",
+      "full": "The Tatzelwurm is a cryptid creature from the Alpine regions of Switzerland, Austria, and Bavaria (southern Germany). Described as 2-6 feet long, the creature has a lizard-like serpentine body with distinctively **only two front legs and no hind legs**, giving it an unusual appearance. Its head is often described as cat-like or feline, and it reportedly has the ability to hiss like a cat. According to historical accounts, the Tatzelwurm is aggressive when encountered and was claimed to have poisonous or venomous breath. Reports of the Tatzelwurm date back to **1779**, with sporadic sightings continuing into the 20th century. The most famous evidence is a sketch made by a Swiss hunter in 1934 and a photograph from the same year, though the photograph is widely considered a hoax."
     },
     "etymology": {
-      "origin": "German 'Tatzel' (paw/claw) and 'wurm' (worm/serpent)",
-      "meaning": "Clawed worm or pawed serpent",
-      "first_use": "Alpine folklore, documented from 1700s"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown Animal",
-      "subtype": "Reptilian/Amphibian",
-      "variant": "Alpine Cryptid"
+      "type": "| Description | Status |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "lindworms",
-        "name": "Lindworms",
-        "relationship": "folkloric_connection",
-        "description": "European serpent-dragons with similar two-legged form"
-      },
-      {
-        "id": "european-dragons",
-        "name": "European Dragons",
-        "relationship": "folkloric_connection",
-        "description": "Broader European dragon folklore"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 0.6,
-        "max": 1.8,
-        "unit": "meters",
-        "confidence": "low"
-      },
-      "weight": {
-        "min": 5,
-        "max": 30,
-        "unit": "kilograms",
-        "confidence": "low"
-      },
-      "coloration": [
-        "gray",
-        "brown",
-        "greenish-gray",
-        "scaled"
-      ],
-      "features": [
-        {
-          "feature": "Body",
-          "description": "Lizard-like serpentine body, 2-6 feet long",
-          "frequency": "always"
-        },
-        {
-          "feature": "Legs",
-          "description": "Only two front legs, no hind legs (distinctive characteristic)",
-          "frequency": "always"
-        },
-        {
-          "feature": "Head",
-          "description": "Cat-like or feline appearance",
-          "frequency": "common"
-        },
-        {
-          "feature": "Vocalization",
-          "description": "Cat-like hiss",
-          "frequency": "reported"
-        },
-        {
-          "feature": "Scales",
-          "description": "Reptilian scales covering body",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Serpentine lizard-like body with distinctive two-legged form. Cat-like head. Reptilian appearance overall. Unusual limb configuration is key identifying feature."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Venomous/poisonous breath",
-        "description": "Claimed to have toxic breath (disputed)",
-        "frequency": "claimed",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Cat-like hiss",
-        "description": "Produces hissing sound similar to cat",
-        "frequency": "reported",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Aggressive behavior",
-        "description": "Attacks when encountered or threatened",
-        "frequency": "reported",
-        "evidence_level": "reported"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "diurnal_and_nocturnal",
-      "disposition": "aggressive",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "caves",
-        "rocky areas",
-        "Alpine slopes",
-        "high altitudes"
-      ],
-      "diet": "Unknown, presumed carnivorous",
-      "patterns": [
-        "Inhabits caves and rocky terrain",
-        "Aggressive when encountered",
-        "Rarely seen",
-        "Mountain and high-altitude environment"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "The Alpine regions of Switzerland, Austria, and Bavaria (southern Germany). Historical reports from high-altitude mountain areas, caves, and rocky terrain.",
-      "continents": ["Europe"],
-      "countries": ["Switzerland", "Austria", "Germany"],
-      "regions": [
-        "Swiss Alps",
-        "Austrian Alps",
-        "Bavarian Alps"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Swiss Alps",
-        "location": {
-          "description": "Alpine regions of Switzerland",
-          "country": "Switzerland",
-          "region": "Alps",
-          "coordinates": {
-            "latitude": 46.5,
-            "longitude": 8.0,
-            "precision": "approximate"
-          }
-        },
-        "sighting_count": "historical",
-        "peak_period": "1779-1934",
-        "notes": "Primary region for historical sightings including famous 1934 sketch"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1779",
-        "circa": false,
-        "source": "Alpine regional accounts"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "1779-1934",
-          "description": "Historical period of documented sightings and reports"
-        }
-      ],
-      "seasonal_patterns": "No specific seasonal patterns documented"
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "The Tatzelwurm is rooted in Alpine folklore, potentially connected to broader European dragon and lindworm traditions. It may represent localized Alpine versions of serpent-dragon mythology.",
-      "earliest_accounts": "First documented report from 1779 in Alpine regions.",
-      "folklore_connections": "Connected to European lindworm (two-legged dragon) folklore and broader dragon mythology. May represent folk memory or cultural tradition."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1779",
-        "event": "First documented sighting",
-        "significance": "Earliest recorded Tatzelwurm report",
-        "source": "Alpine regional records"
-      },
-      {
-        "date": "1800s",
-        "event": "Sporadic Alpine sightings",
-        "significance": "Continued reports from mountain communities",
-        "source": "Regional folklore and accounts"
-      },
-      {
-        "date": "1934",
-        "event": "Swiss hunter sketch and photograph",
-        "significance": "Most famous Tatzelwurm evidence; photograph widely disputed as hoax",
-        "source": "Published photograph and sketch"
-      },
-      {
-        "date": "Mid-1900s",
-        "event": "Claimed skeleton discoveries",
-        "significance": "Several claimed Tatzelwurm skeletons reported, none verified",
-        "source": "Various claims"
-      },
-      {
-        "date": "Late 1900s-present",
-        "event": "Rare modern reports",
-        "significance": "Sightings become extremely rare; primarily historical cryptid",
-        "source": "Cryptozoology literature"
-      }
-    ],
-    "modern_era": "The Tatzelwurm is now considered primarily a historical cryptid. Modern sighting reports are extremely rare. It remains a subject of cryptozoological interest and Alpine folklore. The creature appears in cryptozoology literature and regional cultural heritage."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": "dozens",
+      "total_documented": 0,
       "verified": 0,
-      "disputed": "most",
-      "debunked": "some",
-      "date_range": {
-        "earliest": "1779",
-        "latest": "Rare modern reports"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "tatzelwurm-1934-photo",
-        "name": "1934 Swiss Hunter Photograph",
-        "date": {
-          "value": "1934",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Swiss Alps",
-          "country": "Switzerland",
-          "region": "Alps"
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Swiss hunter"],
-          "credibility_factors": ["Photograph produced", "Sketch made"]
-        },
-        "description": "A Swiss hunter claimed to have encountered and photographed a Tatzelwurm in 1934. He also produced a sketch of the creature showing a serpentine body with two front legs and cat-like head. The photograph shows what appears to be a small lizard-like creature, but is widely considered a hoax.",
-        "conditions": {
-          "weather": "Unknown",
-          "visibility": "Good enough for photograph",
-          "time_of_day": "Daytime",
-          "duration": "Brief encounter"
-        },
-        "evidence": [
-          "Photograph (disputed as hoax)",
-          "Witness sketch",
-          "Testimony"
-        ],
-        "credibility": {
-          "rating": "low",
-          "factors": [
-            "Photograph quality poor",
-            "Widely considered hoax",
-            "No corroboration",
-            "Could be small known lizard photographed to appear larger"
-          ],
-          "notes": "This is the most famous Tatzelwurm evidence, but experts generally consider the photograph a hoax. The sketch, however, is consistent with traditional descriptions."
-        },
-        "sources": [
-          "Published photograph",
-          "Cryptozoology literature"
-        ],
-        "featured": true
-      },
-      {
-        "id": "tatzelwurm-historical-accounts",
-        "name": "Historical Alpine Sightings",
-        "date": {
-          "value": "1779-1900s",
-          "precision": "period"
-        },
-        "location": {
-          "description": "Swiss, Austrian, and Bavarian Alps",
-          "country": "Multiple",
-          "region": "Alps"
-        },
-        "witnesses": {
-          "count": "dozens",
-          "types": ["Mountain dwellers", "Hunters", "Travelers"],
-          "credibility_factors": ["Consistent descriptions", "Regional pattern"]
-        },
-        "description": "Multiple reports from Alpine regions over centuries describe encounters with a lizard-like creature with two front legs and no hind legs. Descriptions are fairly consistent: 2-6 feet long, cat-like head, aggressive behavior, hissing vocalization. Some accounts claim poisonous breath.",
-        "conditions": {
-          "weather": "Various",
-          "visibility": "Various",
-          "time_of_day": "Various",
-          "duration": "Brief encounters"
-        },
-        "evidence": [
-          "Witness testimonies",
-          "Regional folklore",
-          "Consistent descriptions"
-        ],
-        "credibility": {
-          "rating": "low_to_medium",
-          "factors": [
-            "Consistent descriptions across time and geography",
-            "No physical evidence verified",
-            "Could be misidentifications",
-            "Folklore context"
-          ],
-          "notes": "Historical accounts show consistency but lack physical evidence. May represent misidentification of known animals, folklore tradition, or combination of both."
-        },
-        "sources": [
-          "Alpine regional records",
-          "Folklore collections",
-          "Cryptozoology literature"
-        ],
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
     "physical": [],
-    "photographic": [
-      {
-        "type": "photograph",
-        "name": "1934 Swiss photograph",
-        "description": "Disputed photograph allegedly showing Tatzelwurm",
-        "status": "likely_hoax"
-      }
-    ],
+    "photographic": [],
     "video": [],
     "audio": [],
-    "trace": [
-      {
-        "type": "claimed_skeletons",
-        "description": "Several claimed Tatzelwurm skeletons, none scientifically verified",
-        "status": "unverified"
-      }
-    ],
-    "cultural": [
-      {
-        "type": "folklore",
-        "description": "Alpine folklore traditions and historical accounts",
-        "status": "historical"
-      }
-    ]
+    "trace": []
   },
-
   "theories": {
     "paranormal": [],
-    "scientific": [
-      {
-        "name": "Giant salamander species",
-        "description": "Unknown large salamander species inhabiting Alpine caves",
-        "proponents": ["Some cryptozoologists"],
-        "evidence_cited": ["Salamanders exist in region", "Cave habitat", "Body form somewhat similar"]
-      },
-      {
-        "name": "Unknown lizard species",
-        "description": "An undiscovered lizard species with unusual two-legged morphology",
-        "proponents": ["Cryptozoologists"],
-        "evidence_cited": ["Consistent descriptions", "Remote Alpine habitat"]
-      },
-      {
-        "name": "Otter or marten misidentification",
-        "description": "Misidentified otters or martens, especially when partially seen",
-        "proponents": ["Skeptical zoologists"],
-        "evidence_cited": ["Known animals in region", "Similar size", "Partial sightings"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Folklore and misidentification",
-        "description": "Combination of lindworm folklore and misidentified known animals",
-        "proponents": ["Mainstream skeptics"],
-        "evidence_cited": ["No verified evidence", "Folklore connections", "Hoaxed photographs"]
-      },
-      {
-        "name": "Pure mythology",
-        "description": "Entirely folkloric creature with no basis in real animal",
-        "proponents": ["Many scientists"],
-        "evidence_cited": ["Lack of physical evidence", "Connection to dragon folklore", "Implausible morphology"]
-      }
-    ]
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Alpine dragon and lindworm legends",
-        "Mountain creature warnings",
-        "Cave danger stories"
-      ],
-      "stories": [
-        "Encounters with aggressive serpent-creatures",
-        "Poisonous breath warnings",
-        "Cat-headed mountain serpents"
-      ],
-      "beliefs": "Historically believed to be a real dangerous creature inhabiting Alpine caves and mountains. Now primarily folklore."
-    },
-    "indigenous": {
-      "cultures": [
-        "Alpine Swiss",
-        "Austrian mountain communities",
-        "Bavarian highlanders"
-      ],
-      "significance": "Part of Alpine folklore and mountain culture, connected to broader European dragon traditions.",
-      "sensitivity_note": "European folkloric tradition with cultural heritage significance.",
-      "respect_guidelines": "Recognize as part of Alpine cultural heritage and folklore tradition."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Cryptozoology books",
-        "Alpine folklore collections"
-      ],
-      "film_tv": [
-        "Cryptozoology documentaries",
-        "European folklore programs"
-      ],
-      "other": [
-        "Regional cultural heritage",
-        "Tourist folklore references"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Various cryptozoologists",
-        "affiliation": "European cryptozoology researchers",
-        "contribution": "Documentation of historical accounts and investigations",
-        "period": "1900s-present"
-      }
-    ],
+    "researchers": [],
     "organizations": [],
-    "ongoing_studies": "Minimal active research. Primarily historical documentation and folklore studies."
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "cryptozoology-general",
-      "type": "literature",
-      "title": "Cryptozoology literature on Alpine cryptids",
-      "description": "Various books and articles documenting Tatzelwurm accounts",
-      "date": "1900s-present"
-    }
-  ]
+  "sources": []
 }
